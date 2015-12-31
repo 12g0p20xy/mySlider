@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>My Fantasic Slider<span> v.1.0</span></h1>
+	<div class="slider">
+		<ul>
+			<li><img src="images/01.jpg" alt="maciejkuciara"></li>
+			<li><img src="images/02.jpg" alt="maciejkuciara"></li>
+			<li><img src="images/03.jpg" alt="maciejkuciara"></li>
+			<li><img src="images/04.jpg" alt="maciejkuciara"></li>
+			<li><img src="images/05.jpg" alt=""></li>
+			<li><img src="images/06.jpg" alt=""></li>
+		</ul>
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.myslider.js"></script>
+	<script>
+	$(function(){
+		// 可以输入参数sliderHeight和sliderSpeed
+		$('.slider').myslider({
+			sliderSpeed: 300
+		});
+	})
+	</script>
+</body>
+</html>
