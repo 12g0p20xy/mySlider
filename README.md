@@ -1,0 +1,2 @@
+# mySlider
+![](./images/c.jpg)
